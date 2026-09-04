@@ -1,0 +1,11 @@
+// Java program: Hello World
+
+package projectFolder
+
+public class HelloWorld
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello World");
+    }
+}
