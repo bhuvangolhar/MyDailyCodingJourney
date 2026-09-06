@@ -1,0 +1,3 @@
+-- MySQL query: Hello World
+
+SELECT 'Hello World';
