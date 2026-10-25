@@ -1,0 +1,32 @@
+<!-- HTML file: Font style -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font style</title>
+    <link rel="stylesheet" href="003.css">
+</head>
+<body>
+    <h4 id="x">Windows</h4>
+    <h4 id="y">Linux</h4>
+    <h4 id="z">macOS</h4>
+</body>
+</html>
+
+
+/* CSS file: Font style */
+
+body {
+    background-color: azure;
+}
+#x {
+    font-family: 'Arial', sans-serif;
+}
+#y {
+    font-family: 'Times New Roman', sans-serif;
+}
+#z {
+    font-family: 'Georgia', sans-serif;
+}
