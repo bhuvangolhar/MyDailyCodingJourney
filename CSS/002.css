@@ -1,0 +1,32 @@
+<!-- HTML file: Text color -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text color</title>
+    <link rel="stylesheet" href="002.css">
+</head>
+<body>
+    <h3 id="a">USA</h3>
+    <h3 id="b">India</h3>
+    <h3 id="c">China</h3>
+</body>
+</html>
+
+
+/* CSS file: Text color */
+
+body {
+    background-color: azure;
+}
+#a {
+    color: red;
+}
+#b {
+    color: orange;
+}
+#c {
+    color: yellow;
+}
