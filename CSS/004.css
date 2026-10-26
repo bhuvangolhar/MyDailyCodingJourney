@@ -1,0 +1,35 @@
+<!-- HTML file: Font size -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font size</title>
+    <link rel="stylesheet" href="004.css">
+</head>
+<body>
+    <h3 id="l">ChatGPT</h3>
+    <h3 id="m">Gemini</h3>
+    <h3 id="n">Claude</h3>
+</body>
+</html>
+
+
+/* CSS file: Font size */
+
+body {
+    background-color: azure;
+}
+#l {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+#m {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+}
+#n {
+    font-family: 'Georgia', sans-serif;
+    font-size: 24px;
+}
