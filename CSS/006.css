@@ -1,0 +1,41 @@
+<!-- HTML file: Font type -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font type</title>
+    <link rel="stylesheet" href="006.css">
+</head>
+<body>
+    <h3 id="u">New York</h3>
+    <h3 id="v">Paris</h3>
+    <h3 id="w">London</h3>
+</body>
+</html>
+
+
+/* CSS file: Font type */
+
+body {
+    background-color: azure;
+}
+#u {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: oblique;
+}
+#v {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+#w {
+    font-family: 'Georgia', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+}
