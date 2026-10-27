@@ -1,0 +1,38 @@
+<!-- HTML file: Font weight -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font weight</title>
+    <link rel="stylesheet" href="005.css">
+</head>
+<body>
+    <h4 id="p">OpenAI</h4>
+    <h4 id="q">Google</h4>
+    <h4 id="r">Anthropic</h4>
+</body>
+</html>
+
+
+/* CSS file: Font weight */
+
+body {
+    background-color: azure;
+}
+#p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+#q {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+#r {
+    font-family: 'Georgia', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
