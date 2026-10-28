@@ -1,0 +1,36 @@
+<!-- HTML file: Font variant capitalization -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font variant capitalization</title>
+    <link rel="stylesheet" href="008.css">
+</head>
+<body>
+    <h4 id="l">North America</h4>
+    <h4 id="m">South America</h4>
+    <h4 id="n">Australia</h4>
+</body>
+</html>
+
+
+/* CSS file: Font variant capitalization */
+
+body {
+    background-color: azure;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+#l {
+    font-variant-caps: small-caps;
+}
+#m {
+    font-variant-caps: petite-caps;
+}
+#n {
+    font-variant-caps: unicase;
+}
