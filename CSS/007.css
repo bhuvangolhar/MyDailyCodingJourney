@@ -1,0 +1,44 @@
+<!-- HTML file: Font width -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font width</title>
+    <link rel="stylesheet" href="007.css">
+</head>
+<body>
+    <h4 id="r">Asia</h4>
+    <h4 id="s">Europe</h4>
+    <h4 id="t">Africa</h4>
+</body>
+</html>
+
+
+/* CSS file: Font width */
+
+body {
+    background-color: azure;
+}
+#r {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: oblique;
+    font-stretch: 60%;
+}
+#s {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: 75%;
+}
+#t {
+    font-family: 'Georgia', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: 90%;
+}
