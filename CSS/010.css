@@ -1,0 +1,54 @@
+<!-- HTML file: Font variant ligatures -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font variant ligatures</title>
+    <link rel="stylesheet" href="010.css">
+</head>
+<body>
+    <h3 id="b1">66666</h3>
+    <h3 id="b2">77777</h3>
+    <h3 id="b3">88888</h3>
+    <h3 id="b4">99999</h3>
+    <h3 id="b5">00000</h3>
+</body>
+</html>
+
+
+/* CSS file: Font variant ligatures */
+
+body {
+    background-color: azure;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+#b1 {
+    font-variant-caps: small-caps;
+    font-variant-numeric: oldstyle-nums;
+    font-variant-ligatures: common-ligatures;
+}
+#b2 {
+    font-variant-caps: petite-caps;
+    font-variant-numeric: lining-nums;
+    font-variant-ligatures: no-discretionary-ligatures;
+}
+#b3 {
+    font-variant-caps: unicase;
+    font-variant-numeric: proportional-nums;
+    font-variant-ligatures: historical-ligatures;
+}
+#b4 {
+    font-variant-caps: all-small-caps;
+    font-variant-numeric: tabular-nums;
+    font-variant-ligatures: no-historical-ligatures;
+}
+#b5 {
+    font-variant-caps: all-petite-caps;
+    font-variant-numeric: stacked-fractions;
+    font-variant-ligatures: contextual;
+}
