@@ -1,0 +1,49 @@
+<!-- HTML file: Font variant numerics -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font variant numerics</title>
+    <link rel="stylesheet" href="009.css">
+</head>
+<body>
+    <h4 id="a1">11111</h4>
+    <h4 id="a2">22222</h4>
+    <h4 id="a3">33333</h4>
+    <h4 id="a4">44444</h4>
+    <h4 id="a5">55555</h4>
+</body>
+</html>
+
+
+/* CSS file: Font variant numerics */
+
+body {
+    background-color: azure;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+#a1 {
+    font-variant-caps: small-caps;
+    font-variant-numeric: oldstyle-nums;
+}
+#a2 {
+    font-variant-caps: petite-caps;
+    font-variant-numeric: lining-nums;
+}
+#a3 {
+    font-variant-caps: unicase;
+    font-variant-numeric: proportional-nums;
+}
+#a4 {
+    font-variant-caps: all-small-caps;
+    font-variant-numeric: tabular-nums;
+}
+#a5 {
+    font-variant-caps: all-petite-caps;
+    font-variant-numeric: stacked-fractions;
+}
