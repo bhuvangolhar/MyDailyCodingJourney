@@ -1,0 +1,36 @@
+<!-- HTML file: Font variant (shorthand) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font variant (shorthand)</title>
+    <link rel="stylesheet" href="013.css">
+</head>
+<body>
+    <h4 id="aa">Solid</h4>
+    <h4 id="bb">Liquid</h4>
+    <h4 id="cc">Gas</h4>
+</body>
+</html>
+
+
+/* CSS file: Font variant (shorthand) */
+
+body {
+    background-color: azure;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+#aa {
+    font-variant: small-caps oldstyle-nums common-ligatures sub text;
+}
+#bb {
+    font-variant: petite-caps lining-nums no-discretionary-ligatures normal emoji;
+}
+#cc {
+    font-variant: unicase proportional-nums historical-ligatures super unicode;
+}
