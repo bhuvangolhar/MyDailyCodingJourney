@@ -1,0 +1,45 @@
+<!-- HTML file: Font variant position -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font variant position</title>
+    <link rel="stylesheet" href="011.css">
+</head>
+<body>
+    <h3 id="c1">Gold</h3>
+    <h3 id="c2">Silver</h3>
+    <h3 id="c3">Bronze</h3>
+</body>
+</html>
+
+
+/* CSS file: Font variant position */
+
+body {
+    background-color: azure;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+#c1 {
+    font-variant-caps: small-caps;
+    font-variant-numeric: oldstyle-nums;
+    font-variant-ligatures: common-ligatures;
+    font-variant-position: sub;
+}
+#c2 {
+    font-variant-caps: petite-caps;
+    font-variant-numeric: lining-nums;
+    font-variant-ligatures: no-discretionary-ligatures;
+    font-variant-position: normal;
+}
+#c3 {
+    font-variant-caps: unicase;
+    font-variant-numeric: proportional-nums;
+    font-variant-ligatures: historical-ligatures;
+    font-variant-position: super;
+}
